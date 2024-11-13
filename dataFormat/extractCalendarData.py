@@ -81,24 +81,27 @@ def createDictFromCal(cal):
     count = 0;
     entries = {}
     for en in cal:
-        initialIndex = str(en.Start)
-        endTime = str(en.End)
-        timeCode = getTimeCode(en)
-        ticketCode = getTicketCode(en)
-        #date = getDate(en)
-        #day = getDayOfWeek(en)
-        desc = trimDescription(en.Subject,timeCode,ticketCode)
         
-        
-        if GBL.DEBUG == 1:
-            print(f"The timecode is {timeCode}, the ticket is {ticketCode}: {desc}.")
-            #print(initialIndex)
-            #print(initialIndex[:-6])
-            #print(pd.to_datetime(initialIndex,tz='None'))
+        if not en.Subject.startswith("BREAK:"):
             
-        entries[count] = [initialIndex[:-6], endTime[:-6], timeCode, ticketCode, desc]
+            initialIndex = str(en.Start)
+            endTime = str(en.End)
+            timeCode = getTimeCode(en)
+            ticketCode = getTicketCode(en)
+            #date = getDate(en)
+            #day = getDayOfWeek(en)
+            desc = trimDescription(en.Subject,timeCode,ticketCode)
         
-        count += 1
+        
+            #if GBL.DEBUG == 1:
+            #    print(f"The timecode is {timeCode}, the ticket is {ticketCode}: {desc}.")
+            #    #print(initialIndex)
+            #    #print(initialIndex[:-6])
+            #    #print(pd.to_datetime(initialIndex,tz='None'))
+                
+            entries[count] = [initialIndex[:-6], endTime[:-6], timeCode, ticketCode, desc]
+            
+            count += 1
         
     return entries
         

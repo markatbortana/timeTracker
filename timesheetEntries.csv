@@ -1,36 +1,33 @@
-,,,duration_hrs,duration_hrs,duration_hrs,duration_hrs
-date,,,2024-10-31,2024-11-01,2024-11-04,2024-11-05
-day,,,Thursday,Friday,Monday,Tuesday
-timeCode,ticketCode,desc,,,,
-BEV Beta PhaseA,BSW-1468,"BSW-1468: Investigate high range limits, which if any are being hit",0.0,0.5,0.0,0.0
-BEV Beta PhaseA,BSW-1530,BSW-1530: Document the final model changes,0.0,0.0,0.0,0.25
-BEV Beta PhaseA,BSW-1530,BSW-1530: Document the simulation results,0.0,0.0,0.5,0.0
-BEV Beta PhaseA,BSW-1530,BSW-1530: Modify the filters and hysteresis to improve brake light flickering issue,0.0,0.0,1.0,1.0
-BEV Beta PhaseA,BSW-1530,BSW-1530: Review discussion with Brendan of acceleration filter update,0.25,0.0,0.0,0.0
-BEV Beta PhaseA,BSW-1530,"BSW-1530: Test a simulation setup with real data, and diagnose brake light flickering issue.",0.0,3.5,0.0,0.0
-BEV Beta PhaseA,None,Organise / plan my tickets,0.0,0.0,0.25,0.0
-BEV Beta PhaseA,None,Preparation for meeting with John about Kaizen Relay Project,0.0,0.0,0.5,0.0
-BEV Beta PhaseA,None,Software and Data Systems Daily Standup Q4 2024,0.25,0.25,0.25,0.25
-BEV Beta PhasePs,BSW-1472,BSW-1472: Investigate the internal resistance values in the Orion BMS software,0.0,0.0,0.75,0.0
-BEV Beta PhasePs,BSW-1473,BSW-1473: Calculate differences for connecting lower battery first w/ Fellten,0.0,0.0,2.0,0.0
-BEV Beta PhasePs,BSW-1477,BSW-1477: Fault handling discussion overrun,0.5,0.0,0.0,0.0
-BEV Beta PhasePs,BSW-1477,BSW-1477: Fault handling discussion summary,1.0,0.0,0.0,0.0
-BEV Beta PhasePs,BSW-1477,BSW-1477: Fault handling meeting preparation,1.0,0.0,0.0,0.0
-BEV Beta PhasePs,BSW-1508,BSW-1508: Check availability of Fellten pack delta and cell-balance available signals,0.0,0.0,0.0,0.75
-BEV Beta PhasePs,BSW-1530,BSW-1530: Update the documentation around the before state w/ test results and improvements.,0.75,0.0,0.0,0.0
-BEV Beta PhasePs,BSW-1546,BSW-1546: Investigate voltage and discharge limit combination for critical fault logic,0.0,0.0,1.75,0.5
-BEV Beta PhasePs,BSW-1546,BSW-1546: Single battery critical fault logic for Fellten,0.0,1.25,0.0,0.0
-BEV Beta PhasePs,BSW-1546,BSW-1546: Single battery fault logic for Fellten investigation,2.0,0.0,0.0,0.0
-BEV Beta PhasePs,BSW-1546,BSW-1546: Update FHM critical fault logic for Fellten,0.0,1.5,0.0,0.0
-BEV Beta PhasePs,None,Creating tickets for Fellten fault handling,0.0,0.75,0.0,0.0
-BEV Beta PhasePs,None,Test CANBUS communication for the Fellten packs w/ Brendan and John,0.0,0.0,0.0,2.0
-BEV BetaPhasePs,BSW-1551,BSW-1551: Investigate electromechanical's documentation around pack effective resistances as applicable for Fellten batteries,0.0,0.0,0.0,0.5
-BEV BetaPhasePs,BSW-1551,BSW-1551: Update dbc file with pack resistances,0.0,0.0,0.0,0.5
-BFM,None,Daily huddle,0.25,0.25,0.25,0.25
-BFM,None,Interview meet and greet extra time,0.75,0.0,0.0,0.0
-None,None,Fault handling discussion,0.75,0.0,0.0,0.0
-None,None,Paul Earley - Software Developer - Meet & Greet,0.5,0.0,0.0,0.0
-None,None,lunch - BBQ,0.0,0.5,0.0,0.0
-None,None,lunch placeholder,0.5,0.0,0.5,0.5
-ODT,BSW-1551,Figuring out Kvaser dbc editor for BSW-1551,0.0,0.0,0.0,1.0
-ODT,None,Investigate how to edit DBC files with Kvaser tool,0.0,0.0,0.25,0.0
+,,,duration_hrs,duration_hrs,duration_hrs,duration_hrs,duration_hrs
+date,,,2024-11-07 00:00:00,2024-11-08 00:00:00,2024-11-11 00:00:00,2024-11-12 00:00:00,2024-11-13 00:00:00
+day,,,Thursday,Friday,Monday,Tuesday,Wednesday
+timeCode,ticketCode,desc,,,,,
+BEV Beta PhaseA,BSW-1530,"BSW-1530: Clean up the homeless test, create simulation folder for it, verify it doesn't run in the CI/CD server",1.25,0.0,0.0,0.0,0.0
+BEV Beta PhaseA,BSW-1564,BSW-1564: Create a location for simulation input data in Sharepoint,0.5,0.0,0.0,0.0,0.0
+BEV Beta PhaseA,None,Re-organise confluence documentation to correct location for Fellten integration,0.0,1.0,0.0,0.0,0.0
+BEV Beta PhaseA,None,Simulation and test roadmap investigation and brainstorming,0.0,2.5,0.0,0.0,0.0
+BEV Beta PhaseA,None,Software and Data Systems Daily Standup Q4 2024,0.25,0.25,0.25,0.25,0.25
+BEV Beta PhasePs,BSW-1473,BSW-1473: Compare pack resistances to BV and to John's calculation,0.25,0.0,0.0,0.0,0.0
+BEV Beta PhasePs,BSW-1473,BSW-1473: Verify calculation for option of connecting the lower voltage battery first,0.5,0.0,0.0,0.0,0.0
+BEV Beta PhasePs,BSW-1477,BSW-1477: Clean up the documentation around the fault handling signals for Fellten packs,0.0,0.0,1.25,0.0,0.0
+BEV Beta PhasePs,BSW-1477,BSW-1477: Review the ICM changes around fault handling for Fellten packs,0.0,0.0,1.0,0.0,0.0
+BEV Beta PhasePs,BSW-1513,BSW-1513: Figure out issue with test harnesses not being found,0.0,0.0,0.0,0.5,0.0
+BEV Beta PhasePs,BSW-1513,BSW-1513: Investigate possibilities for Fellten contactor closed logic,3.25,4.25,0.0,0.0,0.0
+BEV Beta PhasePs,BSW-1513,BSW-1513: Redo to unit test-harness connections,0.0,0.0,0.0,0.0,4.75
+BEV Beta PhasePs,BSW-1513,BSW-1513: SPM reduction in dis/charge limits before confirmed 2nd battery connection Fellten,0.0,0.0,4.0,1.25,0.0
+BEV Beta PhasePs,BSW-1513,BSW-1513: Update PTS model after unit test failure,0.0,0.0,0.0,1.0,0.0
+BEV Beta PhasePs,BSW-1513,BSW-1513: Update PTS tests for the added Fellten logic,0.0,0.0,0.0,3.5,0.0
+BEV Beta PhasePs,BSW-1513,BSW-1513: Update logic in PTS / check if the PTS tests need updates,0.0,0.0,0.0,0.5,0.0
+BEV Beta PhasePs,BSW-1546,BSW-1546: Discussion with Shekha around the critical fault handling for high/low voltage faults,0.0,0.25,0.0,0.0,0.0
+BEV Beta PhasePs,BSW-1551,BSW-1551: Route pack resistances and add DBC updates,0.0,0.0,0.0,1.25,0.0
+BEV Beta PhasePs,None,Fault handling discussion w/ Shekha and Brendan,0.0,0.0,0.25,0.0,0.0
+BEV Beta PhasePs,None,Organise / plan my tickets (all Fellten tickets),0.25,0.0,0.0,0.0,0.0
+BFM,None,Daily huddle,0.25,0.25,0.25,0.25,0.25
+None,None,A Model-Based Design Journey from Aerospace to an Artificial Pancreas System,0.0,0.0,0.0,0.0,0.4166666666666667
+None,None,Developing Multimodal SLAM Applications Using 3D Simulations,0.0,0.0,0.0,0.0,0.4166666666666667
+None,None,From Embedded to Empowered: The Rise of Software-Defined Products,0.0,0.0,0.0,0.0,0.5
+None,None,NASA's Spacecraft Power Capability Model and Applications Using MATLAB,0.0,0.0,0.0,0.0,0.4166666666666667
+None,None,Optimizing a Battery Electric Vehicle Thermal Management System,0.0,0.0,0.0,0.0,0.4166666666666667
+None,None,Probation 2nd Review,0.5,0.0,0.0,0.0,0.0
+None,None,Watt's Up with Electric Vehicles? Modeling the EV Ecosystem,0.0,0.0,0.0,0.0,1.5
+ODXT,None,Plan attendance for MATLAB EXPO seminars,0.0,0.0,0.0,0.0,0.25
