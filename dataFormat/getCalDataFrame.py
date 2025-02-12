@@ -7,8 +7,9 @@ Created on Mon Oct 28 21:43:49 2024
 take the calender extract and create dataframe from it
 """
 
-import config as GBL
-import pandas as pd
+import pandas as pd # type: ignore
+
+debug = 0
 
 def getCalDataFrame(calendarDict):
  
@@ -16,7 +17,7 @@ def getCalDataFrame(calendarDict):
     result.columns = ['startTime','endTime','timeCode','ticketCode','desc']
 
     
-    if GBL.DEBUG == 1:
+    if debug  == 1:
         #print(calendarDict)
         print(result)
         

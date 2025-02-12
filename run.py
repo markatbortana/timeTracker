@@ -13,16 +13,16 @@ timesheets.
 to MYOB via API to submit a timesheet.
 """
 
-import config as GBL
 import queryOutlook.getCalendar as gc
 import dataFormat.extractCalendarData as ecd
 import dataFormat.getCalDataFrame as gcd
 import dataFormat.organiseDataFrame as odf
 import datetime as dt
-import pandas as pd
 
 #Then turn that dictioanary into a dataframe, index it properly, and output
 #to csv / excel file.
+#initial: Today - 6
+#final: Today + 1
 def calToCsv():
     cal = gc.getCalendar(dt.datetime.today().date() - dt.timedelta(6),\
                              dt.datetime.today().date() + dt.timedelta(1))

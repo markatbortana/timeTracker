@@ -5,10 +5,9 @@ Created on Fri Oct 25 22:13:33 2024
 @author: robin
 """
 
-import config as GBL
 import re
-import pandas as pd
-import datetime as dt
+
+debug = 0
 
 #Body - text in the main body of the invite
 #Location - location field
@@ -90,7 +89,7 @@ def createDictFromCal(cal):
         desc = trimDescription(en.Subject,timeCode,ticketCode)
         
         
-        if GBL.DEBUG == 1:
+        if debug == 1:
             print(f"The timecode is {timeCode}, the ticket is {ticketCode}: {desc}.")
             #print(initialIndex)
             #print(initialIndex[:-6])

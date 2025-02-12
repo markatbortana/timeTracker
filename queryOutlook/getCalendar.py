@@ -5,7 +5,7 @@ Created on Sat Oct 19 22:02:10 2024
 @author: robin
 """
 
-import win32com.client
+import win32com.client # type: ignore
 
 def getCalendar(begin,end):
     outlook = win32com.client.Dispatch('Outlook.Application').\

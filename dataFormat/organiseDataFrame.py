@@ -4,7 +4,7 @@ Created on Tue Nov  5 17:37:56 2024
 
 @author: robin
 """
-import pandas as pd
+import pandas as pd # type: ignore
 
 def organiseDataFrame(df):
     
