@@ -1,0 +1,32 @@
+,,,duration_hrs,duration_hrs,duration_hrs,duration_hrs,duration_hrs
+date,,,2025-02-06,2025-02-07,2025-02-10,2025-02-11,2025-02-12
+day,,,Thursday,Friday,Monday,Tuesday,Wednesday
+timeCode,ticketCode,desc,,,,,
+BEV Beta PhaseA,BSW-1614,BSW-1614: Add a LowHVLoad check in addition to NoHVLoad check for second battery connection,0.0,1.0,0.0,0.0,0.0
+BEV Beta PhaseA,BSW-1614,BSW-1614: BSW-1614: Analyse the test data for the NoHVLoad bug (issue connecting second battery <12V LV batt),0.0,1.0,0.0,0.0,0.0
+BEV Beta PhaseA,BSW-1614,BSW-1614: Confirm details of the automotive issue relating to the NoHVLoad check,0.0,0.0,0.5,0.0,0.0
+BEV Beta PhaseA,BSW-1614,BSW-1614: Resolve signals to investigate which NoHVLoad limit is getting hit,0.5,0.0,0.0,0.0,0.0
+BEV Beta PhaseA,BSW-1614,BSW-1614: Test and log the NoHVLoad bug (issue connecting second battery <12V LV batt),0.0,2.75,0.0,0.0,0.0
+BEV Beta PhaseA,BSW-1614,"BSW-1614: Update the 12V to include a delay, and add the LowHVLoad check pending a further review",0.0,1.0,0.0,0.0,0.0
+BEV Beta PhaseA,BSW-1614,BSW-1614: Update the battery power limits for the added LowHVLoad check to 5000 W,0.0,0.0,0.5,0.0,0.0
+BEV Beta PhaseA,BSW-1614,BSW-1614: Update the fix for the NoHVLoad check based on review,0.0,0.0,0.0,2.25,0.0
+BEV Beta PhaseA,None,BEV-004 testing the NoHVLoad check updates,0.0,0.0,1.0,0.0,0.0
+BEV Beta PhaseA,None,Conversation with Brendan about patch for NoHVLoad bug,0.0,0.0,0.0,0.5,0.0
+BEV Beta PhaseA,None,"Document the NoLoadHVCheck bug, and testing results for 0.11.1 patch",0.0,0.0,2.0,0.0,0.0
+BEV Beta PhaseA,None,Document the fix and discussions around the NoHVLoad change,0.0,0.0,0.0,4.0,1.0
+BEV Beta PhasePs,BSW-1619,BSW-1619: Update fault unit tests in the PTS for Fellten,2.0,0.0,0.0,0.0,0.0
+BEV Beta PhasePs,BSW-1621,BSW-1621: Update HVActiveOk checks with a Fellten variant to replace StatusStandby,0.0,1.0,0.5,0.0,0.0
+BEV Beta PhasePs,None,Create PiSnoop workspace for Fellten stage 7,0.0,1.25,0.0,0.0,0.0
+BEV Beta PhasePs,None,Preparation for Fellten stage 7 test w/ PTS/BMI,2.0,0.0,0.0,0.0,0.0
+BEV Beta PhasePs,None,Review Fellten stage 7 test results,0.0,0.0,0.75,0.0,0.0
+BEV Beta PhasePs,None,Review test results for the Stage 6 Fellten testing,1.5,0.0,0.0,0.0,0.0
+BEV00004,None,Document critical fault during NoHVLoad testing,0.0,0.0,0.0,0.0,1.0
+BEV00004,None,Investigate critical fault during NoHVLoad testing,0.0,0.0,1.75,1.25,1.0
+BFSo,None,"Discussion with AJ around project pages, and organizing Software projects",0.25,0.0,0.0,0.0,0.0
+BFSo,None,Emails,0.0,0.0,0.0,0.0,0.25
+BFSo,None,Timesheeting,0.0,0.0,0.0,0.0,0.25
+BFso,None,Tempo Time tracking,0.0,0.0,0.0,0.0,0.25
+None,None,BEV004 testing,0.0,0.0,0.5,0.0,0.0
+None,None,Bortana Daily Huddle,0.25,0.25,0.25,0.25,0.25
+None,None,SW standup for Q1 2025,0.25,0.25,0.25,0.25,0.25
+ODT,None,Read github documentation and understand process for tagging a release,0.0,0.0,0.5,0.0,0.0
