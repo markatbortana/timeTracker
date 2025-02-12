@@ -1,9 +1,0 @@
-# CSV files
-*.csv
-
-#Excel files
-*.xls
-*.xlsx
-
-#Pycache
-__pycache__/
