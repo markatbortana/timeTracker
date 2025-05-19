@@ -22,7 +22,7 @@ def getTimeCode(entry):
     
     
     #Find what is inside square brackets
-    regexResult = re.search(r"\[([A-Za-z0-9_ ]+)\]", subject)
+    regexResult = re.search(r"\[([A-Za-z0-9_ -]+)\]", subject)
     try:
         result = regexResult.group(1)
     except AttributeError:

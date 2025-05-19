@@ -17,6 +17,7 @@ import queryOutlook.getCalendar as gc
 import dataFormat.extractCalendarData as ecd
 import dataFormat.getCalDataFrame as gcd
 import dataFormat.organiseDataFrame as odf
+import openpyxl
 import datetime as dt
 
 #Then turn that dictioanary into a dataframe, index it properly, and output
@@ -27,23 +28,16 @@ def calToCsv():
     cal = gc.getCalendar(dt.datetime.today().date() - dt.timedelta(6),\
                              dt.datetime.today().date() + dt.timedelta(1))
     
-    q = ecd.createDictFromCal(cal)
-    b = gcd.getCalDataFrame(q)
+    calDict = ecd.createDictFromCal(cal)
+    calDf = gcd.getCalDataFrame(calDict)
     
-    c = odf.organiseDataFrame(b)
+    neatDf = odf.organiseDataFrame(calDf)
     
-    c.to_csv('timesheetEntries.csv')
+    neatDf.to_excel('timesheetEntries.xlsx',sheet_name='timesheetEntries')
 
 
 if __name__ == '__main__':
-    #cal = gc.getCalendar(dt.datetime(2024,10,31), dt.datetime(2024,6,11))
-    #cal = gc.getCalendar(dt.datetime(year=2024,month=10,day=31),\
-    #                     dt.datetime(year=2024,month=11,day=6))
-                         
-    #q = ecd.createDictFromCal(cal)
-    #b = gcd.getCalDataFrame(q)
-    
-    #c = odf.organiseDataFrame(b)
+
     
     calToCsv()
     
